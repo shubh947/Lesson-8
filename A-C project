@@ -1,19 +1,21 @@
 <html>
 <head>
-    <title> Activity 2</title>
+    <title> After class project</title>
     <style>
         #div1 {
             height: 200px;
-            background: linear-gradient(red, blue, green, purple)
+            background: linear-gradient(blue, green, turquoise, purple)
         }
 
         #div2 {
             height: 200px;
-            background: radial-gradient(yellow, green, blue, orange);
+            background: radial-gradient(magenta, aquamarine, palegreen, burlywood);
+            animation-play-state: running;
+            animation-duration: 4s infinite;
+            animation-name: mydemo;
         }
     </style>
 </head>
-
 <body>
     <h2> Gradients in CSS</h2>
     <div id="div1">
